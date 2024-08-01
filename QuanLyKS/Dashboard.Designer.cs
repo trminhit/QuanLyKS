@@ -58,6 +58,8 @@
             panel2 = new Panel();
             uC_Addroom1 = new All_User_Control.UC_Addroom();
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            uC_CustomerRes1 = new All_User_Control.UC_CustomerRes();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -228,7 +230,8 @@
             // panel2
             // 
             panel2.BackColor = Color.White;
-            panel2.BorderStyle = BorderStyle.Fixed3D;
+            panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(uC_CustomerRes1);
             panel2.Controls.Add(uC_Addroom1);
             panel2.Location = new Point(29, 205);
             panel2.Name = "panel2";
@@ -238,7 +241,7 @@
             // uC_Addroom1
             // 
             uC_Addroom1.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            uC_Addroom1.Location = new Point(-2, -2);
+            uC_Addroom1.Location = new Point(4, 3);
             uC_Addroom1.Margin = new Padding(4, 3, 4, 3);
             uC_Addroom1.Name = "uC_Addroom1";
             uC_Addroom1.Size = new Size(2940, 1065);
@@ -247,6 +250,17 @@
             // guna2Elipse1
             // 
             guna2Elipse1.TargetControl = this;
+            // 
+            // guna2Elipse2
+            // 
+            guna2Elipse2.TargetControl = this;
+            // 
+            // uC_CustomerRes1
+            // 
+            uC_CustomerRes1.Location = new Point(3, 3);
+            uC_CustomerRes1.Name = "uC_CustomerRes1";
+            uC_CustomerRes1.Size = new Size(2352, 1065);
+            uC_CustomerRes1.TabIndex = 1;
             // 
             // Dashboard
             // 
@@ -283,5 +297,7 @@
         private Guna.UI2.WinForms.Guna2Panel PanelMoving;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private All_User_Control.UC_Addroom uC_Addroom1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private All_User_Control.UC_CustomerRes uC_CustomerRes1;
     }
 }
