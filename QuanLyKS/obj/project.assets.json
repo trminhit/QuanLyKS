@@ -150,11 +150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MainQLKS\\QuanLyKS\\QuanLyKS.csproj",
+      "projectUniqueName": "D:\\QuanLyKS\\QuanLyKS\\QuanLyKS.csproj",
       "projectName": "QuanLyKS",
-      "projectPath": "D:\\MainQLKS\\QuanLyKS\\QuanLyKS.csproj",
+      "projectPath": "D:\\QuanLyKS\\QuanLyKS\\QuanLyKS.csproj",
       "packagesPath": "C:\\Users\\phong\\.nuget\\packages\\",
-      "outputPath": "D:\\MainQLKS\\QuanLyKS\\obj\\",
+      "outputPath": "D:\\QuanLyKS\\QuanLyKS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\phong\\AppData\\Roaming\\NuGet\\NuGet.Config",

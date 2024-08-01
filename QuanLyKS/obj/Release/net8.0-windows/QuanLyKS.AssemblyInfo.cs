@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuanLyKS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87f951dd435d97e96349155dfd9a86e264196d8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuanLyKS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuanLyKS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
