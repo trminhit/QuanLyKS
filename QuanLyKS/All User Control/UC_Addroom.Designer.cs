@@ -39,6 +39,9 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             label1 = new Label();
             dataGridView1 = new DataGridView();
             label2 = new Label();
@@ -52,7 +55,9 @@
             label5 = new Label();
             btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            DataGridView = new Guna.UI2.WinForms.Guna2DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DataGridView).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -75,7 +80,7 @@
             dataGridView1.Margin = new Padding(4, 3, 4, 3);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1058, 563);
+            dataGridView1.Size = new Size(0, 0);
             dataGridView1.TabIndex = 1;
             // 
             // label2
@@ -83,7 +88,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Century Gothic", 12F);
             label2.ForeColor = Color.Black;
-            label2.Location = new Point(1248, 122);
+            label2.Location = new Point(1110, 122);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(152, 23);
@@ -102,7 +107,7 @@
             txtRoomNo.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 163);
             txtRoomNo.ForeColor = Color.Black;
             txtRoomNo.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtRoomNo.Location = new Point(1248, 161);
+            txtRoomNo.Location = new Point(1110, 161);
             txtRoomNo.Margin = new Padding(4);
             txtRoomNo.Name = "txtRoomNo";
             txtRoomNo.PasswordChar = '\0';
@@ -117,7 +122,7 @@
             label3.AutoSize = true;
             label3.Font = new Font("Century Gothic", 12F);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(1248, 258);
+            label3.Location = new Point(1110, 258);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(119, 23);
@@ -136,7 +141,7 @@
             txtRoomType.ForeColor = Color.Black;
             txtRoomType.ItemHeight = 30;
             txtRoomType.Items.AddRange(new object[] { "AC", "Non-AC" });
-            txtRoomType.Location = new Point(1248, 299);
+            txtRoomType.Location = new Point(1110, 299);
             txtRoomType.Name = "txtRoomType";
             txtRoomType.ShadowDecoration.CustomizableEdges = customizableEdges4;
             txtRoomType.Size = new Size(556, 36);
@@ -155,7 +160,7 @@
             txtPrice.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 163);
             txtPrice.ForeColor = Color.Black;
             txtPrice.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtPrice.Location = new Point(1248, 524);
+            txtPrice.Location = new Point(1110, 524);
             txtPrice.Margin = new Padding(4);
             txtPrice.Name = "txtPrice";
             txtPrice.PasswordChar = '\0';
@@ -170,7 +175,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Century Gothic", 12F);
             label4.ForeColor = Color.Black;
-            label4.Location = new Point(1248, 485);
+            label4.Location = new Point(1110, 485);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new Size(57, 23);
@@ -189,7 +194,7 @@
             txtBed.ForeColor = Color.Black;
             txtBed.ItemHeight = 30;
             txtBed.Items.AddRange(new object[] { "Single", "Double", "Triple" });
-            txtBed.Location = new Point(1248, 415);
+            txtBed.Location = new Point(1110, 415);
             txtBed.Name = "txtBed";
             txtBed.ShadowDecoration.CustomizableEdges = customizableEdges8;
             txtBed.Size = new Size(556, 36);
@@ -200,7 +205,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Century Gothic", 12F);
             label5.ForeColor = Color.Black;
-            label5.Location = new Point(1248, 372);
+            label5.Location = new Point(1110, 372);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
             label5.Size = new Size(48, 23);
@@ -222,22 +227,76 @@
             btnAddRoom.FillColor = Color.White;
             btnAddRoom.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 163);
             btnAddRoom.ForeColor = Color.Black;
-            btnAddRoom.Location = new Point(1579, 626);
+            btnAddRoom.Location = new Point(1441, 626);
             btnAddRoom.Name = "btnAddRoom";
             btnAddRoom.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btnAddRoom.Size = new Size(225, 56);
             btnAddRoom.TabIndex = 10;
             btnAddRoom.Text = "Add Room";
+            btnAddRoom.Click += btnAddRoom_Click;
             // 
             // guna2Elipse1
             // 
             guna2Elipse1.BorderRadius = 30;
             guna2Elipse1.TargetControl = this;
             // 
+            // DataGridView
+            // 
+            dataGridViewCellStyle1.BackColor = Color.White;
+            DataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            DataGridView.BorderStyle = BorderStyle.Fixed3D;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle2.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            DataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            DataGridView.ColumnHeadersHeight = 4;
+            DataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            DataGridView.DefaultCellStyle = dataGridViewCellStyle3;
+            DataGridView.GridColor = Color.FromArgb(231, 229, 255);
+            DataGridView.Location = new Point(68, 119);
+            DataGridView.Name = "DataGridView";
+            DataGridView.RowHeadersVisible = false;
+            DataGridView.RowHeadersWidth = 51;
+            DataGridView.Size = new Size(846, 563);
+            DataGridView.TabIndex = 11;
+            DataGridView.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            DataGridView.ThemeStyle.AlternatingRowsStyle.Font = null;
+            DataGridView.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            DataGridView.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            DataGridView.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            DataGridView.ThemeStyle.BackColor = Color.White;
+            DataGridView.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            DataGridView.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            DataGridView.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            DataGridView.ThemeStyle.HeaderStyle.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            DataGridView.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            DataGridView.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            DataGridView.ThemeStyle.HeaderStyle.Height = 4;
+            DataGridView.ThemeStyle.ReadOnly = false;
+            DataGridView.ThemeStyle.RowsStyle.BackColor = Color.White;
+            DataGridView.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            DataGridView.ThemeStyle.RowsStyle.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            DataGridView.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            DataGridView.ThemeStyle.RowsStyle.Height = 29;
+            DataGridView.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            DataGridView.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            // 
             // UC_Addroom
             // 
             AutoScaleDimensions = new SizeF(10F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(DataGridView);
             Controls.Add(btnAddRoom);
             Controls.Add(txtBed);
             Controls.Add(label5);
@@ -252,9 +311,12 @@
             Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(4, 3, 4, 3);
             Name = "UC_Addroom";
-            Size = new Size(2352, 852);
+            Size = new Size(1882, 852);
             Load += UC_Addroom_Load;
+            Enter += UC_Addroom_Enter;
+            Leave += UC_Addroom_Leave;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DataGridView).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -274,5 +336,6 @@
         private Label label5;
         private Guna.UI2.WinForms.Guna2Button btnAddRoom;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2DataGridView DataGridView;
     }
 }
