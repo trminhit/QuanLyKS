@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\QuanLyKS\\QuanLyKS\\QuanLyKS.csproj": {}
+    "C:\\QuanLyKS\\QuanLyKS\\QuanLyKS.csproj": {}
   },
   "projects": {
-    "D:\\QuanLyKS\\QuanLyKS\\QuanLyKS.csproj": {
+    "C:\\QuanLyKS\\QuanLyKS\\QuanLyKS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\QuanLyKS\\QuanLyKS\\QuanLyKS.csproj",
+        "projectUniqueName": "C:\\QuanLyKS\\QuanLyKS\\QuanLyKS.csproj",
         "projectName": "QuanLyKS",
-        "projectPath": "D:\\QuanLyKS\\QuanLyKS\\QuanLyKS.csproj",
-        "packagesPath": "C:\\Users\\phong\\.nuget\\packages\\",
-        "outputPath": "D:\\QuanLyKS\\QuanLyKS\\obj\\",
+        "projectPath": "C:\\QuanLyKS\\QuanLyKS\\QuanLyKS.csproj",
+        "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
+        "outputPath": "C:\\QuanLyKS\\QuanLyKS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\my\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,6 +48,10 @@
             "Guna.UI2.WinForms": {
               "target": "Package",
               "version": "[2.0.4.6, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
