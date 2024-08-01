@@ -1,0 +1,72 @@
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.exe
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.deps.json
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.runtimeconfig.json
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.dll
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.pdb
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.csproj.AssemblyReference.cache
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.Form1.resources
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.Properties.Resources.resources
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.csproj.GenerateResource.cache
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.AssemblyInfoInputs.cache
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.AssemblyInfo.cs
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.csproj.Up2Date
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.dll
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\refint\QuanLyKS.dll
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.pdb
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.genruntimeconfig.cache
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\ref\QuanLyKS.dll
+C:\Users\NGUYEN TRUONG MINH\source\repos\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.Dashboard.resources
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.exe
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.deps.json
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.runtimeconfig.json
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.dll
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.pdb
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.csproj.AssemblyReference.cache
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.Dashboard.resources
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.Form1.resources
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.Properties.Resources.resources
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.csproj.GenerateResource.cache
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.AssemblyInfoInputs.cache
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.AssemblyInfo.cs
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.csproj.CoreCompileInputs.cache
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.csproj.Up2Date
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.dll
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\refint\QuanLyKS.dll
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.pdb
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.genruntimeconfig.cache
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\ref\QuanLyKS.dll
+C:\Users\my\OneDrive\Desktop\SPKT\HocKy_II(hè)\DevDev\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.All_User_Control.UC_Addroom.resources
+D:\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.exe
+D:\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.deps.json
+D:\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.runtimeconfig.json
+D:\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.dll
+D:\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\QuanLyKS.pdb
+D:\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\Guna.UI2.dll
+D:\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\System.Management.dll
+D:\QuanLyKS\QuanLyKS\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.csproj.AssemblyReference.cache
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.All_User_Control.UC_Addroom.resources
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.Dashboard.resources
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.Form1.resources
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.Properties.Resources.resources
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.csproj.GenerateResource.cache
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.GeneratedMSBuildEditorConfig.editorconfig
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.AssemblyInfoInputs.cache
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.AssemblyInfo.cs
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.csproj.CoreCompileInputs.cache
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.sourcelink.json
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.csproj.Up2Date
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.dll
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\refint\QuanLyKS.dll
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.pdb
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\QuanLyKS.genruntimeconfig.cache
+D:\QuanLyKS\QuanLyKS\obj\Debug\net8.0-windows\ref\QuanLyKS.dll
