@@ -33,6 +33,7 @@ namespace QuanLyKS
             uC_Addroom1.Visible = false;
             uC_CustomerRes1.Visible = false;
             uC_CheckOut1.Visible = false;
+            uC_CustomerDetail1.Visible = false;
             btnAddRoom.PerformClick();
         }
 
@@ -56,6 +57,13 @@ namespace QuanLyKS
             PanelMoving.Left = btnCheckOut.Left;
             uC_CheckOut1.Visible = true;
             uC_CheckOut1.BringToFront();
+        }
+
+        private void btnCustomerDetail_Click(object sender, EventArgs e)
+        {
+            PanelMoving.Left = btnCustomerDetail.Left + 60;
+            uC_CustomerDetail1.Visible = true;
+            uC_CustomerDetail1.BringToFront();
         }
     }
 }
