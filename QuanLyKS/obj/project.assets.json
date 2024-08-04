@@ -604,19 +604,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\phong\\.nuget\\packages\\": {}
+    "C:\\Users\\my\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\QLKS\\QuanLyKS\\QuanLyKS.csproj",
+      "projectUniqueName": "C:\\Users\\my\\OneDrive\\Desktop\\Quanli\\QuanLyKS\\QuanLyKS.csproj",
       "projectName": "QuanLyKS",
-      "projectPath": "D:\\QLKS\\QuanLyKS\\QuanLyKS.csproj",
-      "packagesPath": "C:\\Users\\phong\\.nuget\\packages\\",
-      "outputPath": "D:\\QLKS\\QuanLyKS\\obj\\",
+      "projectPath": "C:\\Users\\my\\OneDrive\\Desktop\\Quanli\\QuanLyKS\\QuanLyKS.csproj",
+      "packagesPath": "C:\\Users\\my\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\my\\OneDrive\\Desktop\\Quanli\\QuanLyKS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\phong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\my\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

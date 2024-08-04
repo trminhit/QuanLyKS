@@ -15,7 +15,8 @@ namespace QuanLyKS
         protected SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\phong\\OneDrive\\Tài liệu\\dbMyHotel.mdf;Integrated Security=True;Connect Timeout=30";
+            con.ConnectionString =
+                "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\Database\\dbMyHotel.mdf;Integrated Security=True;Connect Timeout=30";
             return con;
         }
 
