@@ -62,7 +62,7 @@ namespace QuanLyKS
 
         private void btnCustomerDetail_Click(object sender, EventArgs e)
         {
-            PanelMoving.Left = btnCustomerDetail.Left + 60;
+            PanelMoving.Left = btnCustomerDetail.Left ;
             uC_CustomerDetail1.Visible = true;
             uC_CustomerDetail1.BringToFront();
         }
@@ -74,9 +74,14 @@ namespace QuanLyKS
 
         private void btnEmployee_Click_1(object sender, EventArgs e)
         {
-            PanelMoving.Left = btnEmployee.Left + 60;
+            PanelMoving.Left = btnEmployee.Left ;
             uC_Employee1.Visible = true;
             uC_Employee1.BringToFront();
-        }   
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

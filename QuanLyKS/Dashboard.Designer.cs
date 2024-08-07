@@ -56,6 +56,7 @@
             btnCustomerRes = new Guna.UI2.WinForms.Guna2Button();
             btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
             panel2 = new Panel();
+            uC_Employee1 = new All_User_Control.UC_Employee();
             uC_CustomerDetail1 = new All_User_Control.UC_CustomerDetail();
             uC_CheckOut1 = new All_User_Control.UC_CheckOut();
             uC_CustomerRes1 = new All_User_Control.UC_CustomerRes();
@@ -65,7 +66,6 @@
             guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(components);
-            uC_Employee1 = new All_User_Control.UC_Employee();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -120,6 +120,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1760, 135);
             panel1.TabIndex = 2;
+            panel1.Paint += panel1_Paint;
             // 
             // PanelMoving
             // 
@@ -250,10 +251,17 @@
             panel2.Size = new Size(1882, 852);
             panel2.TabIndex = 3;
             // 
+            // uC_Employee1
+            // 
+            uC_Employee1.Location = new Point(-1, -1);
+            uC_Employee1.Name = "uC_Employee1";
+            uC_Employee1.Size = new Size(3076, 1099);
+            uC_Employee1.TabIndex = 4;
+            // 
             // uC_CustomerDetail1
             // 
             uC_CustomerDetail1.Font = new Font("Arial Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            uC_CustomerDetail1.Location = new Point(167, -1);
+            uC_CustomerDetail1.Location = new Point(2, -1);
             uC_CustomerDetail1.Margin = new Padding(2, 2, 2, 2);
             uC_CustomerDetail1.Name = "uC_CustomerDetail1";
             uC_CustomerDetail1.Size = new Size(3029, 1099);
@@ -305,19 +313,12 @@
             // 
             guna2Elipse5.TargetControl = this;
             // 
-            // uC_Employee1
-            // 
-            uC_Employee1.Location = new Point(4, 3);
-            uC_Employee1.Name = "uC_Employee1";
-            uC_Employee1.Size = new Size(3076, 1099);
-            uC_Employee1.TabIndex = 4;
-            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.MediumSlateBlue;
-            ClientSize = new Size(1195, 689);
+            ClientSize = new Size(1891, 829);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(btnMinisize);
