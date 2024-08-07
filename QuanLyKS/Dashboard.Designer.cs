@@ -56,6 +56,7 @@
             btnCustomerRes = new Guna.UI2.WinForms.Guna2Button();
             btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
             panel2 = new Panel();
+            uC_CustomerDetail1 = new All_User_Control.UC_CustomerDetail();
             uC_CheckOut1 = new All_User_Control.UC_CheckOut();
             uC_CustomerRes1 = new All_User_Control.UC_CustomerRes();
             uC_Addroom1 = new All_User_Control.UC_Addroom();
@@ -63,7 +64,8 @@
             guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(components);
-            uC_CustomerDetail1 = new All_User_Control.UC_CustomerDetail();
+            guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            uC_Employee1 = new All_User_Control.UC_Employee();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -80,11 +82,10 @@
             btnExit.ForeColor = Color.White;
             btnExit.Image = (Image)resources.GetObject("btnExit.Image");
             btnExit.ImageSize = new Size(30, 30);
-            btnExit.Location = new Point(5, 19);
-            btnExit.Margin = new Padding(5);
+            btnExit.Location = new Point(3, 12);
             btnExit.Name = "btnExit";
             btnExit.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            btnExit.Size = new Size(63, 50);
+            btnExit.Size = new Size(39, 31);
             btnExit.TabIndex = 0;
             btnExit.Click += btnExit_Click;
             // 
@@ -100,11 +101,10 @@
             btnMinisize.ForeColor = Color.White;
             btnMinisize.Image = (Image)resources.GetObject("btnMinisize.Image");
             btnMinisize.ImageSize = new Size(40, 40);
-            btnMinisize.Location = new Point(5, 78);
-            btnMinisize.Margin = new Padding(5);
+            btnMinisize.Location = new Point(3, 49);
             btnMinisize.Name = "btnMinisize";
             btnMinisize.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnMinisize.Size = new Size(63, 48);
+            btnMinisize.Size = new Size(39, 30);
             btnMinisize.TabIndex = 1;
             // 
             // panel1
@@ -116,21 +116,19 @@
             panel1.Controls.Add(btnCheckOut);
             panel1.Controls.Add(btnCustomerRes);
             panel1.Controls.Add(btnAddRoom);
-            panel1.Location = new Point(127, 19);
-            panel1.Margin = new Padding(5);
+            panel1.Location = new Point(78, 12);
             panel1.Name = "panel1";
-            panel1.Size = new Size(2858, 214);
+            panel1.Size = new Size(1760, 135);
             panel1.TabIndex = 2;
             // 
             // PanelMoving
             // 
             PanelMoving.BackColor = Color.Cyan;
             PanelMoving.CustomizableEdges = customizableEdges5;
-            PanelMoving.Location = new Point(46, 200);
-            PanelMoving.Margin = new Padding(5);
+            PanelMoving.Location = new Point(28, 125);
             PanelMoving.Name = "PanelMoving";
             PanelMoving.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            PanelMoving.Size = new Size(462, 16);
+            PanelMoving.Size = new Size(284, 10);
             PanelMoving.TabIndex = 0;
             // 
             // btnEmployee
@@ -146,13 +144,13 @@
             btnEmployee.FillColor = Color.SlateBlue;
             btnEmployee.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnEmployee.ForeColor = Color.White;
-            btnEmployee.Location = new Point(2218, 5);
-            btnEmployee.Margin = new Padding(5);
+            btnEmployee.Location = new Point(1365, 3);
             btnEmployee.Name = "btnEmployee";
             btnEmployee.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            btnEmployee.Size = new Size(462, 186);
+            btnEmployee.Size = new Size(284, 116);
             btnEmployee.TabIndex = 5;
             btnEmployee.Text = "Nhân viên";
+            btnEmployee.Click += btnEmployee_Click_1;
             // 
             // btnCustomerDetail
             // 
@@ -167,11 +165,10 @@
             btnCustomerDetail.FillColor = Color.SlateBlue;
             btnCustomerDetail.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCustomerDetail.ForeColor = Color.White;
-            btnCustomerDetail.Location = new Point(1680, 5);
-            btnCustomerDetail.Margin = new Padding(5);
+            btnCustomerDetail.Location = new Point(1035, 3);
             btnCustomerDetail.Name = "btnCustomerDetail";
             btnCustomerDetail.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            btnCustomerDetail.Size = new Size(462, 186);
+            btnCustomerDetail.Size = new Size(284, 116);
             btnCustomerDetail.TabIndex = 5;
             btnCustomerDetail.Text = "Chi tiết khách hàng";
             btnCustomerDetail.Click += btnCustomerDetail_Click;
@@ -189,11 +186,10 @@
             btnCheckOut.FillColor = Color.SlateBlue;
             btnCheckOut.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCheckOut.ForeColor = Color.White;
-            btnCheckOut.Location = new Point(1139, 5);
-            btnCheckOut.Margin = new Padding(5);
+            btnCheckOut.Location = new Point(701, 3);
             btnCheckOut.Name = "btnCheckOut";
             btnCheckOut.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            btnCheckOut.Size = new Size(462, 186);
+            btnCheckOut.Size = new Size(284, 116);
             btnCheckOut.TabIndex = 4;
             btnCheckOut.Text = "Thanh toán";
             btnCheckOut.Click += btnCheckOut_Click;
@@ -211,11 +207,10 @@
             btnCustomerRes.FillColor = Color.SlateBlue;
             btnCustomerRes.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCustomerRes.ForeColor = Color.White;
-            btnCustomerRes.Location = new Point(593, 5);
-            btnCustomerRes.Margin = new Padding(5);
+            btnCustomerRes.Location = new Point(365, 3);
             btnCustomerRes.Name = "btnCustomerRes";
             btnCustomerRes.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            btnCustomerRes.Size = new Size(462, 186);
+            btnCustomerRes.Size = new Size(284, 116);
             btnCustomerRes.TabIndex = 1;
             btnCustomerRes.Text = "Đăng kí khách hàng";
             btnCustomerRes.Click += guna2Button4_Click;
@@ -233,11 +228,10 @@
             btnAddRoom.FillColor = Color.SlateBlue;
             btnAddRoom.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAddRoom.ForeColor = Color.White;
-            btnAddRoom.Location = new Point(46, 5);
-            btnAddRoom.Margin = new Padding(5);
+            btnAddRoom.Location = new Point(28, 3);
             btnAddRoom.Name = "btnAddRoom";
             btnAddRoom.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnAddRoom.Size = new Size(462, 186);
+            btnAddRoom.Size = new Size(284, 116);
             btnAddRoom.TabIndex = 0;
             btnAddRoom.Text = "Thêm phòng";
             btnAddRoom.Click += btnAddRoom_Click;
@@ -246,40 +240,49 @@
             // 
             panel2.BackColor = Color.White;
             panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(uC_Employee1);
             panel2.Controls.Add(uC_CustomerDetail1);
             panel2.Controls.Add(uC_CheckOut1);
             panel2.Controls.Add(uC_CustomerRes1);
             panel2.Controls.Add(uC_Addroom1);
-            panel2.Location = new Point(47, 328);
-            panel2.Margin = new Padding(5);
+            panel2.Location = new Point(29, 205);
             panel2.Name = "panel2";
-            panel2.Size = new Size(3057, 1362);
+            panel2.Size = new Size(1882, 852);
             panel2.TabIndex = 3;
+            // 
+            // uC_CustomerDetail1
+            // 
+            uC_CustomerDetail1.Font = new Font("Arial Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            uC_CustomerDetail1.Location = new Point(167, -1);
+            uC_CustomerDetail1.Margin = new Padding(2, 2, 2, 2);
+            uC_CustomerDetail1.Name = "uC_CustomerDetail1";
+            uC_CustomerDetail1.Size = new Size(3029, 1099);
+            uC_CustomerDetail1.TabIndex = 3;
             // 
             // uC_CheckOut1
             // 
             uC_CheckOut1.BorderStyle = BorderStyle.Fixed3D;
-            uC_CheckOut1.Location = new Point(-2, -2);
-            uC_CheckOut1.Margin = new Padding(8);
+            uC_CheckOut1.Location = new Point(-1, -1);
+            uC_CheckOut1.Margin = new Padding(5);
             uC_CheckOut1.Name = "uC_CheckOut1";
-            uC_CheckOut1.Size = new Size(3820, 1702);
+            uC_CheckOut1.Size = new Size(2352, 1065);
             uC_CheckOut1.TabIndex = 2;
             // 
             // uC_CustomerRes1
             // 
-            uC_CustomerRes1.Location = new Point(5, 5);
-            uC_CustomerRes1.Margin = new Padding(8);
+            uC_CustomerRes1.Location = new Point(3, 3);
+            uC_CustomerRes1.Margin = new Padding(5);
             uC_CustomerRes1.Name = "uC_CustomerRes1";
-            uC_CustomerRes1.Size = new Size(3822, 1704);
+            uC_CustomerRes1.Size = new Size(2352, 1065);
             uC_CustomerRes1.TabIndex = 1;
             // 
             // uC_Addroom1
             // 
             uC_Addroom1.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            uC_Addroom1.Location = new Point(6, 5);
-            uC_Addroom1.Margin = new Padding(6, 5, 6, 5);
+            uC_Addroom1.Location = new Point(4, 3);
+            uC_Addroom1.Margin = new Padding(4, 3, 4, 3);
             uC_Addroom1.Name = "uC_Addroom1";
-            uC_Addroom1.Size = new Size(4778, 1704);
+            uC_Addroom1.Size = new Size(2940, 1065);
             uC_Addroom1.TabIndex = 0;
             // 
             // guna2Elipse1
@@ -298,27 +301,28 @@
             // 
             guna2Elipse4.TargetControl = this;
             // 
-            // uC_CustomerDetail1
+            // guna2Elipse5
             // 
-            uC_CustomerDetail1.Font = new Font("Arial Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            uC_CustomerDetail1.Location = new Point(-2, -2);
-            uC_CustomerDetail1.Margin = new Padding(4, 3, 4, 3);
-            uC_CustomerDetail1.Name = "uC_CustomerDetail1";
-            uC_CustomerDetail1.Size = new Size(4922, 1758);
-            uC_CustomerDetail1.TabIndex = 3;
+            guna2Elipse5.TargetControl = this;
+            // 
+            // uC_Employee1
+            // 
+            uC_Employee1.Location = new Point(4, 3);
+            uC_Employee1.Name = "uC_Employee1";
+            uC_Employee1.Size = new Size(3076, 1099);
+            uC_Employee1.TabIndex = 4;
             // 
             // Dashboard
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.MediumSlateBlue;
-            ClientSize = new Size(2910, 1763);
+            ClientSize = new Size(1195, 689);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(btnMinisize);
             Controls.Add(btnExit);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(5);
             Name = "Dashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Dashboard";
@@ -349,5 +353,7 @@
         private All_User_Control.UC_CheckOut uC_CheckOut1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
         private All_User_Control.UC_CustomerDetail uC_CustomerDetail1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
+        private All_User_Control.UC_Employee uC_Employee1;
     }
 }

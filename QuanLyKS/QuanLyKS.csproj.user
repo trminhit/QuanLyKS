@@ -13,6 +13,9 @@
     <Compile Update="All User Control\UC_CustomerRes.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="All User Control\UC_Employee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
