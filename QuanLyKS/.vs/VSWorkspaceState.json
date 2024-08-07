@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\All User Control",
+    "\\bin",
+    "\\obj",
+    "\\Properties"
   ],
-  "SelectedNode": "\\function.cs",
   "PreviewInSolutionExplorer": false
 }
