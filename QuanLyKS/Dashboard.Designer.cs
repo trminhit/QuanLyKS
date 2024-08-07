@@ -56,8 +56,16 @@
             btnCustomerRes = new Guna.UI2.WinForms.Guna2Button();
             btnAddRoom = new Guna.UI2.WinForms.Guna2Button();
             panel2 = new Panel();
+            uC_CustomerDetail1 = new All_User_Control.UC_CustomerDetail();
+            uC_CheckOut1 = new All_User_Control.UC_CheckOut();
+            uC_CustomerRes1 = new All_User_Control.UC_CustomerRes();
             uC_Addroom1 = new All_User_Control.UC_Addroom();
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            uC_Employee1 = new All_User_Control.UC_Employee();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -142,6 +150,7 @@
             btnEmployee.Size = new Size(284, 116);
             btnEmployee.TabIndex = 5;
             btnEmployee.Text = "Nhân viên";
+            btnEmployee.Click += btnEmployee_Click_1;
             // 
             // btnCustomerDetail
             // 
@@ -156,12 +165,13 @@
             btnCustomerDetail.FillColor = Color.SlateBlue;
             btnCustomerDetail.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCustomerDetail.ForeColor = Color.White;
-            btnCustomerDetail.Location = new Point(1034, 3);
+            btnCustomerDetail.Location = new Point(1035, 3);
             btnCustomerDetail.Name = "btnCustomerDetail";
             btnCustomerDetail.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btnCustomerDetail.Size = new Size(284, 116);
             btnCustomerDetail.TabIndex = 5;
             btnCustomerDetail.Text = "Chi tiết khách hàng";
+            btnCustomerDetail.Click += btnCustomerDetail_Click;
             // 
             // btnCheckOut
             // 
@@ -182,6 +192,7 @@
             btnCheckOut.Size = new Size(284, 116);
             btnCheckOut.TabIndex = 4;
             btnCheckOut.Text = "Thanh toán";
+            btnCheckOut.Click += btnCheckOut_Click;
             // 
             // btnCustomerRes
             // 
@@ -228,17 +239,47 @@
             // panel2
             // 
             panel2.BackColor = Color.White;
-            panel2.BorderStyle = BorderStyle.Fixed3D;
+            panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(uC_Employee1);
+            panel2.Controls.Add(uC_CustomerDetail1);
+            panel2.Controls.Add(uC_CheckOut1);
+            panel2.Controls.Add(uC_CustomerRes1);
             panel2.Controls.Add(uC_Addroom1);
             panel2.Location = new Point(29, 205);
             panel2.Name = "panel2";
             panel2.Size = new Size(1882, 852);
             panel2.TabIndex = 3;
             // 
+            // uC_CustomerDetail1
+            // 
+            uC_CustomerDetail1.Font = new Font("Arial Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            uC_CustomerDetail1.Location = new Point(167, -1);
+            uC_CustomerDetail1.Margin = new Padding(2, 2, 2, 2);
+            uC_CustomerDetail1.Name = "uC_CustomerDetail1";
+            uC_CustomerDetail1.Size = new Size(3029, 1099);
+            uC_CustomerDetail1.TabIndex = 3;
+            // 
+            // uC_CheckOut1
+            // 
+            uC_CheckOut1.BorderStyle = BorderStyle.Fixed3D;
+            uC_CheckOut1.Location = new Point(-1, -1);
+            uC_CheckOut1.Margin = new Padding(5);
+            uC_CheckOut1.Name = "uC_CheckOut1";
+            uC_CheckOut1.Size = new Size(2352, 1065);
+            uC_CheckOut1.TabIndex = 2;
+            // 
+            // uC_CustomerRes1
+            // 
+            uC_CustomerRes1.Location = new Point(3, 3);
+            uC_CustomerRes1.Margin = new Padding(5);
+            uC_CustomerRes1.Name = "uC_CustomerRes1";
+            uC_CustomerRes1.Size = new Size(2352, 1065);
+            uC_CustomerRes1.TabIndex = 1;
+            // 
             // uC_Addroom1
             // 
             uC_Addroom1.Font = new Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            uC_Addroom1.Location = new Point(-2, -2);
+            uC_Addroom1.Location = new Point(4, 3);
             uC_Addroom1.Margin = new Padding(4, 3, 4, 3);
             uC_Addroom1.Name = "uC_Addroom1";
             uC_Addroom1.Size = new Size(2940, 1065);
@@ -248,12 +289,35 @@
             // 
             guna2Elipse1.TargetControl = this;
             // 
+            // guna2Elipse2
+            // 
+            guna2Elipse2.TargetControl = this;
+            // 
+            // guna2Elipse3
+            // 
+            guna2Elipse3.TargetControl = this;
+            // 
+            // guna2Elipse4
+            // 
+            guna2Elipse4.TargetControl = this;
+            // 
+            // guna2Elipse5
+            // 
+            guna2Elipse5.TargetControl = this;
+            // 
+            // uC_Employee1
+            // 
+            uC_Employee1.Location = new Point(4, 3);
+            uC_Employee1.Name = "uC_Employee1";
+            uC_Employee1.Size = new Size(3076, 1099);
+            uC_Employee1.TabIndex = 4;
+            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.MediumSlateBlue;
-            ClientSize = new Size(1942, 1102);
+            ClientSize = new Size(1195, 689);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(btnMinisize);
@@ -283,5 +347,13 @@
         private Guna.UI2.WinForms.Guna2Panel PanelMoving;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private All_User_Control.UC_Addroom uC_Addroom1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private All_User_Control.UC_CustomerRes uC_CustomerRes1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
+        private All_User_Control.UC_CheckOut uC_CheckOut1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
+        private All_User_Control.UC_CustomerDetail uC_CustomerDetail1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
+        private All_User_Control.UC_Employee uC_Employee1;
     }
 }

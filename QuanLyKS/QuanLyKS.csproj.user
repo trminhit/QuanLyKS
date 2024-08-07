@@ -4,6 +4,18 @@
     <Compile Update="All User Control\UC_Addroom.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="All User Control\UC_CheckOut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="All User Control\UC_CustomerDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="All User Control\UC_CustomerRes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="All User Control\UC_Employee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
