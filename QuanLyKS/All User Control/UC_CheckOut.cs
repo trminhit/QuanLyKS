@@ -41,7 +41,7 @@ namespace QuanLyKS.All_User_Control
             {
                 id = int.Parse(guna2DataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString());
                 txtCName.Text = guna2DataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-                txtRoom.Text = guna2DataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+                txtRoom.Text = guna2DataGridView1.Rows[e.RowIndex].Cells[9].Value.ToString();
             }
         }
 
@@ -75,6 +75,11 @@ namespace QuanLyKS.All_User_Control
         private void UC_CheckOut_Leave(object sender, EventArgs e)
         {
             clearAll();
+        }
+
+        private void txtRoom_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

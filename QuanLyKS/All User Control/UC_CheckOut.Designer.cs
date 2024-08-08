@@ -213,6 +213,7 @@
             txtRoom.Size = new Size(572, 80);
             txtRoom.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             txtRoom.TabIndex = 8;
+            txtRoom.TextChanged += txtRoom_TextChanged;
             // 
             // label4
             // 
